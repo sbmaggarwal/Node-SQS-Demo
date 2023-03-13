@@ -1,7 +1,7 @@
 const Consumer = require('sqs-consumer').Consumer;
 const sqs = require("../utils/aws");
 
-// delay example function 
+// delay example function
 const delay = time => new Promise(res => setTimeout(res, time));
 
 const app = Consumer.create({
