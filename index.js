@@ -1,8 +1,8 @@
 const express = require("express");
 const app = express();
 const endpoint = require("./routes/endpoints");
-require("./consumer/sqsConsumer");
-require("./consumer/sqsConsumer2");
+//require("./consumer/sqsConsumer");
+//require("./consumer/sqsConsumer2");
 
 let nodeEnv = process.env.NODE_ENV;
 const isDev = nodeEnv === "development" || nodeEnv === "local";
